@@ -93,4 +93,5 @@ func_dic = {'sphere': [sphere, [-5.12, 5.12]],
             'levy': [levy, [-10, 10]],
             'micha': [micha, [0, pi]],
             'zakhar': [zakhar, [-5, 10]]}
-#small comment
+
+#some new code
