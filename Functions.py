@@ -1,4 +1,4 @@
-#xi ∈ [-5.12, 5.12]
+﻿#xi ∈ [-5.12, 5.12]
 def sphere(x):
     f = np.sum([x**2 for x in x])
     return f
@@ -93,3 +93,4 @@ func_dic = {'sphere': [sphere, [-5.12, 5.12]],
             'levy': [levy, [-10, 10]],
             'micha': [micha, [0, pi]],
             'zakhar': [zakhar, [-5, 10]]}
+#small comment
