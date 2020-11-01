@@ -9,7 +9,8 @@ Animation for Hill Climbing Algorithm using 'sphere' function:
 
 <IMG SRC="https://github.com/ens-a/BIA/blob/main/gifs/2-Hill_climbing.gif"
     align="center" >
-     
+  
+  
      
 ![grab-landing-page](https://github.com/ens-a/BIA/blob/main/gifs/2-Hill_climbing.gif)
 
