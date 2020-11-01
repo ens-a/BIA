@@ -8,7 +8,7 @@ You can find course description and materials [here](https://homel.vsb.cz/~ska20
 Animation for Hill Climbing Algorithm using 'sphere' function:
 
 <IMG SRC="https://github.com/ens-a/BIA/blob/main/gifs/2-Hill_climbing.gif"
-     width="300" height="300">
+    align="center" width="500" height="450">
      
      
 ![grab-landing-page](https://github.com/ens-a/BIA/blob/main/gifs/2-Hill_climbing.gif)
