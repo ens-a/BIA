@@ -5,14 +5,12 @@ This repository was created to store homeworks for my acatemic course. Also, it'
 You can find course description and materials [here](https://homel.vsb.cz/~ska206/bia.html). 
 
 
+
 Animation for Hill Climbing Algorithm using 'sphere' function:
 
 <IMG SRC="https://github.com/ens-a/BIA/blob/main/gifs/2-Hill_climbing.gif"
     align="center" >
   
-  
-     
-![grab-landing-page](https://github.com/ens-a/BIA/blob/main/gifs/2-Hill_climbing.gif)
 
 Animation for Annealing algorithm using 'ackley' function:
 
