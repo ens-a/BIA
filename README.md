@@ -16,6 +16,9 @@ Animation for Annealing algorithm using 'ackley' function:
 
 ![grab-landing-page](https://github.com/ens-a/BIA/blob/main/gifs/3-Annealing.gif)
 
+Animation for Differential Evolution algorithm using 'rastrigin' function:
+![grab-landing-page](https://github.com/ens-a/BIA/blob/main/gifs/DE_algorithm.gif)
+
 
 
  
