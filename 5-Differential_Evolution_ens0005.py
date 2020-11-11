@@ -25,7 +25,7 @@ class Individual:
 
 class DifferentialEvaluation:
     """Differential Evaluation algorithm.
-        It is used to optimaze given function in particular dimension space.
+        It is used to optimize given function in particular dimension space.
          For 2d problem it's possible to make an animation.
          make population -> run algorithm -> make animation"""
 
@@ -63,7 +63,9 @@ class DifferentialEvaluation:
                 # make a new individual which is product of r1, r2, r3
                 v = [(v1 - v2) * F + v3 for v1, v2, v3 in list(zip(new_pop[r1],
                                                                    new_pop[r2],
-                                                                   new_pop[r3]))]
+
+                                                                  new_pop[r3]))]
+                v = [self.lB if v_i < self.lB else (self.uB if v_i > self.uB else v_i) for v_i in v ]
                 u = [0] * self.d
                 # randomly swap values from x and v
                 j_rnd = np.random.randint(0, self.d)
