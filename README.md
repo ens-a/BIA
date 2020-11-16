@@ -4,7 +4,15 @@ This repository was created to store homeworks for my acatemic course. Also, it'
 
 You can find course description and materials [here](https://homel.vsb.cz/~ska206/bia.html). 
 
+Animation for Particle Swarm Optimization algorithm using 'rastrigin' function:
+![grab-landing-page](https://github.com/ens-a/BIA/blob/main/gifs/SwOpt_algorithm.gif)
 
+Animation for Differential Evolution algorithm using 'rastrigin' function:
+![grab-landing-page](https://github.com/ens-a/BIA/blob/main/gifs/DE_algorithm.gif)
+
+Animation for Annealing algorithm using 'ackley' function:
+
+![grab-landing-page](https://github.com/ens-a/BIA/blob/main/gifs/3-Annealing.gif)
 
 Animation for Hill Climbing Algorithm using 'sphere' function:
 
@@ -12,14 +20,10 @@ Animation for Hill Climbing Algorithm using 'sphere' function:
     align="center" >
   
 
-Animation for Annealing algorithm using 'ackley' function:
 
-![grab-landing-page](https://github.com/ens-a/BIA/blob/main/gifs/3-Annealing.gif)
 
-Animation for Differential Evolution algorithm using 'rastrigin' function:
-![grab-landing-page](https://github.com/ens-a/BIA/blob/main/gifs/DE_algorithm.gif)
 
-Animation for Particle Swarm Optimization algorithm using 'rastrigin' function:
-![grab-landing-page](https://github.com/ens-a/BIA/blob/main/gifs/SwOpt_algorithm.gif)
+
+
 
  
