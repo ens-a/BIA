@@ -19,6 +19,7 @@ Animation for Annealing algorithm using 'ackley' function:
 Animation for Differential Evolution algorithm using 'rastrigin' function:
 ![grab-landing-page](https://github.com/ens-a/BIA/blob/main/gifs/DE_algorithm.gif)
 
-
+Animation for Particle Swarm Optimization algorithm using 'rastrigin' function:
+![grab-landing-page](https://github.com/ens-a/BIA/blob/main/gifs/SwOpt_algorithm.gif)
 
  
