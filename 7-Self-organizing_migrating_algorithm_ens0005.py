@@ -73,6 +73,9 @@ class SOMA:
         for i in range(self.d):
             x_new.parameters[i] = (individ.parameters[i] +
                                    (self.Leader.parameters[i] - individ.parameters[i]) * individ.PRTvec[i] * t)
+
+        # check boundaries for new parameter vector
+        x_new = [self.lB if x_i < self.lB else (self.uB if x_i > self.uB else x_i) for x_i in x_new]
         return x_new
 
     def run(self, pop_size, path_length, step, migrations, prt):
@@ -137,7 +140,7 @@ class SOMA:
         plt.colorbar()
 
         Writer = ani.writers['pillow']
-        writer = Writer(fps=10)
+        writer = Writer(fps=5)
 
         animation = camera.animate()
         animation.save('SOMA_algorithm.gif', writer=writer)
@@ -146,9 +149,9 @@ pop_size = 20
 prt = 0.4
 path = 3
 step = 0.11
-migrations = 30
+migrations = 10
 
-algorithm = SOMA('rastrigin')
+algorithm = SOMA('ackley')
 algorithm.run(pop_size, path, step, migrations, prt)
 algorithm.make_animation()
 answer = sorted(algorithm.population, key= lambda x: algorithm.function(x.parameters))[0]
