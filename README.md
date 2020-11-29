@@ -4,6 +4,10 @@ This repository was created to store homeworks for my acatemic course. Also, it'
 
 You can find course description and materials [here](https://homel.vsb.cz/~ska206/bia.html). 
 
+
+Animation for Ant colony algorithm solving TS problem:
+![grab-landing-page](https://github.com/ens-a/BIA/blob/main/gifs/Ant_colony_algorithm.gif)
+
 Animation for Self-organizing migration algorithm using 'rastrigin' function:
 ![grab-landing-page](https://github.com/ens-a/BIA/blob/main/gifs/SOMA_algorithm.gif)
 
