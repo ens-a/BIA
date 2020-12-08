@@ -5,7 +5,7 @@ This repository was created to store homeworks for my acatemic course. Also, it'
 You can find course description and materials [here](https://homel.vsb.cz/~ska206/bia.html). 
 
 Animation for Firefly algorithm using 'rastrigin' function:
-![grab-landing-page](https://github.com/ens-a/BIA/blob/main/gifs/Firefly_algorithm)
+![grab-landing-page](https://github.com/ens-a/BIA/blob/main/gifs/Firefly_algorithm.gif)
 
 Animation for Ant colony algorithm solving TS problem:
 ![grab-landing-page](https://github.com/ens-a/BIA/blob/main/gifs/Ant_colony_algorithm.gif)
