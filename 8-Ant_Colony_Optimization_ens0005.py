@@ -26,7 +26,7 @@ class Ant:
         for i in list(self.cities.keys()):
             for j in list(self.cities.keys()):
                 if i != j:
-                    self.dist_matrix[i][j] = 1 / self.dist(i, j)
+                    self.dist_matrix[i][j] = self.dist(i, j)
 
 
     def dist(self, city1, city2):
@@ -185,7 +185,7 @@ ALPHA = 1
 BETA = 1
 
 aco = ACO(CITIES_NUMBER, ANT_NUMBER, ALPHA, BETA, EVAPORATION)
-aco.run(50)
+aco.run(100)
 aco.make_animation()
 
 
