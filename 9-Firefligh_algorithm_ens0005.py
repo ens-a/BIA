@@ -57,7 +57,7 @@ class FireflySwarmOptimization:
 
     def distance(self, x_i, x_j):
 
-        temp_sum = sum((i - j) ** 2 for i, j in list(zip(x_i, x_j)))
+        temp_sum = sum([(i - j) ** 2 for i, j in list(zip(x_i, x_j))])
         return temp_sum ** 0.5
 
     def new_param(self, x_i, x_j):
@@ -79,12 +79,14 @@ class FireflySwarmOptimization:
         self.gBest = sorted(self.swarm, key=lambda x: self.function(x.parameters))[0].parameters
 
         while self.m < Mmax:
-            for i in range(self.d):
-                for j in range(self.d):
+            for i in range(self.size):
+                for j in range(self.size):
                     x_i = self.swarm[i]
                     x_j = self.swarm[j]
-                    if x_i.evaluate() < x_j.evaluate():
+
+                    if x_i.evaluate() > x_j.evaluate():
                         new_x_i = self.new_param(x_i.parameters, x_j.parameters)
+
                         self.swarm[i].parameters = new_x_i
                         if self.swarm[i].evaluate() < self.Leader.evaluate():
                             self.Leader.parameters = new_x_i
@@ -135,10 +137,12 @@ dimensions = 2
 pop_size = 10
 alpha = 0.4
 beta = 1
-M_max = 100
+M_max = 50
 
 algorithm = FireflySwarmOptimization('rastrigin')
 algorithm.make_swarm(pop_size)
 algorithm.run(alpha, beta, M_max)
 algorithm.make_animation()
+
+
 
