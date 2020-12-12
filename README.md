@@ -4,6 +4,9 @@ This repository was created to store homeworks for my acatemic course. Also, it'
 
 You can find course description and materials [here](https://homel.vsb.cz/~ska206/bia.html). 
 
+Animation for Teaching–learning-based optimization algorithm using 'rastrigin' function:
+![grab-landing-page](https://github.com/ens-a/BIA/blob/main/gifs/Learning_Based_opt.gif)
+
 Animation for Firefly algorithm using 'rastrigin' function:
 ![grab-landing-page](https://github.com/ens-a/BIA/blob/main/gifs/Firefly_algorithm.gif)
 
